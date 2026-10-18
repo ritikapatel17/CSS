@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+
+}
+
+p{
+    color: blueviolet;
+    font-size: larger;
+
+}
+
+ul{
+    background-color: chartreuse;
+    color: darkred;
+    padding: 50px;
+}

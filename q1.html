@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 70px;
+            width: 70px;
+            margin: 10px;
+        }
+        .container1{
+            display: flex;
+            flex-direction: row;
+        }
+         .container2{
+            display: flex;
+            flex-direction: column;
+        }
+         .container3{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+         .container4{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .container5{
+            display: flex;
+            justify-content: start;
+        }
+        .container6{
+            display: flex;
+           justify-content: end;
+        }
+        .container7{
+            display: flex;
+            justify-content: center;
+        }
+        .container8{
+            display: flex;
+           justify-content: space-around;
+        }
+        .container9{
+            display: flex;
+            justify-content: space-between;
+        }
+        .container10{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .container11{
+            height: 200px;
+            display: flex;
+            align-items: start;
+        }
+
+         .container12{
+            height: 200px;
+            display: flex;
+            align-items: end;
+        }
+
+         .container13{
+            height: 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .box1{
+           
+            width: 70px;
+            margin: 10px;
+        }
+         .container14{
+           height: 200px;
+            display: flex;
+            align-items: stretch;
+        }
+
+        .container15{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .container16{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container17{
+            display: flex;
+            flex-wrap: wrap-reverse;
+            width: 300px;
+            height: 250px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Flexbox Properties</h1>
+
+
+    <h3>Flex Direction Row </h3>
+    <div class="container1" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>Flex Direction Column</h3>
+    <div class="container2" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+     <h3>Flex Direction Row-Reverse </h3>
+    <div class="container3" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+     <h3>Flex Direction Column-Reverse</h3>
+    <div class="container4" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1 </div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+     <h3>justify-content start</h3>
+    <div class="container5" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1 </div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>justify-content end</h3>
+    <div class="container6" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>justify-content center</h3>
+    <div class="container7" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>justify-content space-around</h3>
+    <div class="container8" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>justify-content space-between</h3>
+    <div class="container9" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>justify-content space-evenly</h3>
+    <div class="container10" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+
+     <h3>Align Items Start</h3>
+    <div class="container11"  style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>Align Items End</h3>
+    <div class="container12"  style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>Align Items Center</h3>
+    <div class="container13"  style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+     <h3>Align Items Stretch</h3>
+    <div class="container14"  style="background-color: yellow;">
+    <div class="box1" style="background-color: aqua;">Item 1</div>
+    <div class="box1" style="background-color: crimson;">Item 2</div>
+     <div class="box1" style="background-color: brown">Item 3</div>
+    <div class="box1" style="background-color: forestgreen;">Item 4</div>
+    <div class="box1" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+    <h3>Flex Wrap Nowrap</h3>
+    <div class="container15" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+<div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    
+</div>
+
+
+
+
+
+    <h3>Flex Wrap Wrap</h3>
+    <div class="container16" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+<div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+    <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+</div>
+
+
+
+<h3>Flex Wrap Wrap-Reverse</h3>
+    <div class="container17" style="background-color: yellow;">
+    <div class="box" style="background-color: aqua;">Item 1</div>
+    <div class="box" style="background-color: crimson;">Item 2</div>
+     <div class="box" style="background-color: brown">Item 3</div>
+    <div class="box" style="background-color: forestgreen;">Item 4</div>
+    <div class="box" style="background-color: rgb(20, 58, 112)">Item 5</div>
+</div>
+
+
+</body>
+</html>
